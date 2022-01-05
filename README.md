@@ -1,1 +1,1 @@
-# algaworks-notification-api
+# algaworks-notification
