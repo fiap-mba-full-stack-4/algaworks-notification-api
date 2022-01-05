@@ -6,6 +6,20 @@ spring:
     name: notification
   rabbitmq:
     addresses: localhost:5672
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: algaworks.fiap@gmail.com
+    password: Fiap@123
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
 
 rabbitmq:
   exchanges:
